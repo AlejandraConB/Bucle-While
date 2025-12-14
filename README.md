@@ -5,33 +5,33 @@
 - Finalmente, el programa imprime un mensaje indicando que se ha salido del bucle, lo cual ocurre inmediatamente al iniciarse.
 
 ## 🚀 Estructura del Código
-#### 1.#include <stdio.h>
+#### 1. #include <stdio.h>
   - Incluye la biblioteca estándar de entrada/salida (stdio.h), necesaria para usar funciones como printf.
   - Sin esta directiva, el compilador no reconocería printf.
 
-#### 2.int n = 10;
+#### 2. int n = 10;
   - Declara una variable global entera llamada n y la inicializa con el valor 10.
   - Esta variable es accesible desde cualquier función del archivo.
 
-#### 3.int main()
+#### 3. int main()
   - Función principal del programa.
   - Es el punto de entrada cuando el programa se ejecuta.
   - Devuelve un entero (int) que indica si el programa terminó correctamente (0) o con errores (cualquier otro valor).
 
-#### 4.while (n > 10)
+#### 4. while (n > 10)
   - Evalúa si n es mayor que 10.
   - Como n vale exactamente 10, la condición es falsa.
   - El bucle no se ejecuta.
 
-#### 5.printf("n es igual a %d\n", n);
+#### 5. printf("n es igual a %d\n", n);
   - Esta línea no se ejecuta porque está dentro del bucle while.
   - Si n fuera mayor que 10, esta instrucción imprimiría su valor usando el especificador %d.
 
-#### 6.n = n - 1;
+#### 6. n = n - 1;
   - Esta línea también no se ejecuta.
   - Si el bucle se ejecutara, decrementaría n en una unidad cada vez.
 
-#### 7.return 0;
+#### 7. return 0;
   - Indica que el programa finalizó correctamente.
   - Este valor es devuelto al sistema operativo.
 
