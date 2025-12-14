@@ -6,7 +6,8 @@
 
 ## 🚀 Estructura del Código
 #### 1.#include <stdio.h>
-  - Incluye la biblioteca estándar de entrada/salida (stdio.h), necesaria para usar funciones como printf. Sin esta directiva, el compilador no reconocería printf.
+  - Incluye la biblioteca estándar de entrada/salida (stdio.h), necesaria para usar funciones como printf.
+  - Sin esta directiva, el compilador no reconocería printf.
 
 #### 2.int n = 10;
   - Declara una variable global entera llamada n y la inicializa con el valor 10.
